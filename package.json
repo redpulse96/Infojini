@@ -1,0 +1,50 @@
+{
+  "name": "zapier",
+  "version": "1.0.0",
+  "description": "Backend For zapier",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "example",
+    "express",
+    "passport"
+  ],
+  "author": "Syed Redhan",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:redpulse96/Zapier.git"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "compression": "^1.7.4",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.3.3",
+    "express": "^4.13.1",
+    "express-mongo-sanitize": "^2.0.2",
+    "express-session": "^1.11.3",
+    "fb": "^2.0.0",
+    "helmet": "^4.4.1",
+    "hubspot": "^2.3.14",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.6.1",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
+    "util": "^0.12.3",
+    "validator": "^13.5.2",
+    "xss-clean": "^0.1.1"
+  }
+}
